@@ -12,8 +12,6 @@ var Pokemon = (function(){
 				$(this).prependTo('#away').animate({top: 900, left: 200},300);
 				return;
 			}
-
-            //test change
 			$(this).prependTo('#home');
 		});
 	}
