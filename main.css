@@ -1,0 +1,77 @@
+.options-wrapper {
+	position: relative;
+	display: block;
+	width: 50%;
+	margin: 50px auto 0 auto;
+	text-align: center;
+}
+
+.choice {
+	display: inline-block;
+	position: relative;
+	border: 1px solid blue;
+}
+
+.choice:hover {
+	background: blue;
+	cursor: pointer;
+}
+
+.fight-button {
+	position: relative;
+	display: block;
+	width: 200px;
+	margin: 50px auto;
+	padding: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.fight-button:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+
+}
+
+.fight-field {
+	display: block;
+	width: 100%;
+	background-color: lightblue;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.home-wrapper {
+	display: inline-block;
+	width: 500px;
+	height: 100px;
+	background-color: #fff;
+	float: left;
+	margin: 50px;
+	height: 400px;
+	border: 1px solid red;
+}
+
+.away-wrapper {
+	display: inline-block;
+	width: 500px;
+	float: right;
+	background-color: #fff;
+	margin: 50px;
+	height: 400px;
+	border: 1px solid red;
+}
+
+.versus {
+	position: absolute;
+	width: 100px;
+	left: 49%;
+	top: 20%;
+}
+
+div.growlUI { background: url(check48.png) no-repeat 10px 10px }
+div.growlUI h1, div.growlUI h2 {
+    color: white; padding: 5px 5px 5px 75px; text-align: left
+}
